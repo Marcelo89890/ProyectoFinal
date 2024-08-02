@@ -77,3 +77,11 @@ function CrearTarjetaNoticias() {
 
     return html
 }
+
+function CrearParrafo(){
+    let texto = "Genesis"
+    
+    let html =`<p>${texto} </p>`
+
+    return html;
+}
