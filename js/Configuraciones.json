@@ -1,0 +1,57 @@
+{
+    "navbar": [
+      {
+        "nombre": "Inicio2",
+        "enlace": "#",
+        "activo": true,
+        "claseDeCss": "nav-item nav-link"
+      },
+      {
+        "nombre": "Noticias",
+        "enlace": "#Noticias",
+        "activo": false,
+        "claseDeCss": "nav-item nav-link"
+      },
+      {
+        "nombre": "Banner1",
+        "enlace": "#Banner1",
+        "activo": false,
+        "claseDeCss": "nav-item nav-link"
+      },
+      {
+        "nombre": "Banner2",
+        "enlace": "#Banner2",
+        "activo": false,
+        "claseDeCss": "nav-item nav-link"
+      },
+      {
+        "nombre": "Contacto",
+        "enlace": "#Footer",
+        "activo": false,
+        "claseDeCss": "nav-item nav-link"
+      }
+    ],
+    "footer": [
+      {
+        "nombre": "términos condiciones",
+        "enlace": "#TerminosCondiciones",
+        "claseDeCss": "footer-item"
+      },
+      {
+        "nombre": "Facebook",
+        "enlace": "https://facebook.com",
+        "claseDeCss": "mx-2 fab fa-facebook-f"
+      },
+      {
+        "nombre": "Twitter",
+        "enlace": "https://twitter.com",
+        "claseDeCss": "mx-2 fab fa-twitter"
+      },
+      {
+        "nombre": "LinkedIn",
+        "enlace": "https://linkedin.com",
+        "claseDeCss": "mx-2 fab fa-linkedin"
+      }
+    ]
+  }
+  
