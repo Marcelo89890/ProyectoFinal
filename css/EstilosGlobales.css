@@ -1,0 +1,64 @@
+body {
+    font-family: "Oswald", sans-serif;
+    background-color: #000000;
+    color: #fff;
+  }
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .navegacion-principal__marca {
+    width: 50px;
+  }
+
+  .cabecera {
+    text-align: center;
+    padding: 50px 20px;
+    background: url("/img/1-Header.jpg") no-repeat center center/cover;
+  }
+
+  .boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #262626;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-top: 20px;
+  }
+
+  .boton:hover {
+    opacity: 0.9;
+  }
+
+  .banner {
+    padding: 50px 20px;
+    text-align: center;
+    opacity: 0.9;
+    
+  }
+
+  .banner-tarjetas-uno {
+    background: url("/img/1-Banner.jpg") no-repeat center center/cover;
+    
+  }
+
+  .banner-tarjetas-dos {
+    background: url("/img/2-Banner.jpg") no-repeat center center/cover;
+  }
+  .spaced-div {
+    margin-bottom: 20px; /* Ajusta este valor según el espaciado deseado */
+  }
+  .social a i {
+    font-size: 3rem;
+  }
+
+  
+
+  .pie {
+    background: #2f3640;
+    color: #616161;
+    text-align: center;
+    padding: 20px 0;
+  }
