@@ -1,8 +1,8 @@
 {
     "navbar": [
       {
-        "nombre": "Inicio:)",
-        "enlace": "Inicio.html",
+        "nombre": "Inicio2",
+        "enlace": "#",
         "activo": true,
         "claseDeCss": "nav-item nav-link"
       },
@@ -19,14 +19,14 @@
         "claseDeCss": "nav-item nav-link"
       },
       {
-        "nombre": "Card Boostrap",
-        "enlace": "Card.html",
+        "nombre": "Banner2",
+        "enlace": "#Banner2",
         "activo": false,
         "claseDeCss": "nav-item nav-link"
       },
       {
-        "nombre": "Tabla Boostrap",
-        "enlace": "Table.html",
+        "nombre": "Contacto",
+        "enlace": "#Footer",
         "activo": false,
         "claseDeCss": "nav-item nav-link"
       }

@@ -1,9 +1,8 @@
-import { MostrarHTML } from "/js/Global.js"
-
+import { MostrarHTML } from "/js/CrearHTML.js"
+import { MostarDatosEnConsola } from "/js/ConsultarJson.js"
 ///Componentes ->
-document.addEventListener('DOMContentLoaded', () => {
-    MostrarHTML();
-  
-});
-
+document.addEventListener('DOMContentLoaded', ev => {
+    MostrarHTML()
+    MostarDatosEnConsola()
+})
 
