@@ -1,7 +1,7 @@
 {
     "navbar": [
       {
-        "nombre": "Inicio2",
+        "nombre": "Home",
         "enlace": "#",
         "activo": true,
         "claseDeCss": "nav-item nav-link"
@@ -32,11 +32,7 @@
       }
     ],
     "footer": [
-      {
-        "nombre": "términos condiciones",
-        "enlace": "#TerminosCondiciones",
-        "claseDeCss": "footer-item"
-      },
+      
       {
         "nombre": "Facebook",
         "enlace": "https://facebook.com",
