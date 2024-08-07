@@ -1,7 +1,7 @@
 import {ObtenerDatosApiRick} from "/js/Servicios_Config.js"
 
 
-export async function MostrarCard() {
+export const  MostrarCard= async() => {
 
     const Datos = await ObtenerDatosApiRick()
 

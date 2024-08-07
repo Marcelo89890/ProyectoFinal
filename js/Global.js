@@ -1,6 +1,6 @@
 import {ObtenerDatosConfiguracion} from "/js/Servicios_Config.js"
 
-export async function MostrarHTML() {
+export const  MostrarHTML= async() => {
 
     const Datos = await ObtenerDatosConfiguracion()
 
