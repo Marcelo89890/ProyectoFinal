@@ -1,5 +1,7 @@
 import {ObtenerDatosApiRick} from "/js/Servicios_Config.js"
 
+//Variables Globales 
+let respuesta = []
 
 export const  MostrarCard= async() => {
 
