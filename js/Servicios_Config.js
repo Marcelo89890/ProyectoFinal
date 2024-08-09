@@ -1,11 +1,14 @@
 
 export  const ObtenerDatosConfiguracion = async () => {
-
+    let config = {
+        method: 'GET',
+        headers: { 'Content-Type': 'application/json' }
+    };
     const url = "/js/Configuraciones.json"
 
     try {
 
-        const response = await fetch(url);
+        const response = await fetch(url,config);
         if (response.status == "200") {
             const data = await response.json();
 
@@ -26,11 +29,16 @@ export  const ObtenerDatosConfiguracion = async () => {
 
 export  const ObtenerDatosApiRick = async () => {
 
+    let config = {
+        method: 'GET',
+        headers: { 'Content-Type': 'application/json' }
+    };
+
     const url = "https://rickandmortyapi.com/api/character"
 
     try {
 
-        const response = await fetch(url);
+        const response = await fetch(url,config);
         if (response.status == "200") {
             const data = await response.json();
 
@@ -51,12 +59,15 @@ export  const ObtenerDatosApiRick = async () => {
 
 
 export  const ObtenerDatosUsuarios= async () => {
-
+    let config = {
+        method: 'GET',
+        headers: { 'Content-Type': 'application/json' }
+    };
     const url = "https://jsonplaceholder.typicode.com/posts"
 
     try {
 
-        const response = await fetch(url);
+        const response = await fetch(url,config);
         if (response.status == "200") {
             const data = await response.json();
 
