@@ -3,6 +3,10 @@ import {ObtenerDatosApiRick} from "/js/Servicios_Config.js"
 //Variables Globales 
 let respuesta = []
 
+document.addEventListener('DOMContentLoaded', ev => {
+  MostrarCard()
+})
+
 export const  MostrarCard= async() => {
 
     const Datos = await ObtenerDatosApiRick()

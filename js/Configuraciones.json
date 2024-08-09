@@ -1,35 +1,30 @@
 {
     "navbar": [
       {
-        "nombre": "Home",
-        "enlace": "#",
+        "nombre": "Inicio",
+        "enlace": "Inicio.html",
         "activo": true,
         "claseDeCss": "nav-item nav-link"
       },
       {
-        "nombre": "Noticias",
-        "enlace": "#Noticias",
+        "nombre": "Tabla Usuarios",
+        "enlace": "Tabla-Usuarios.html",
         "activo": false,
         "claseDeCss": "nav-item nav-link"
       },
       {
-        "nombre": "Banner1",
-        "enlace": "#Banner1",
+        "nombre": "Tabla Rick",
+        "enlace": "Tabla-Rick.html",
         "activo": false,
         "claseDeCss": "nav-item nav-link"
       },
       {
-        "nombre": "Banner2",
-        "enlace": "#Banner2",
-        "activo": false,
-        "claseDeCss": "nav-item nav-link"
-      },
-      {
-        "nombre": "Contacto",
-        "enlace": "#Footer",
+        "nombre": "Registro",
+        "enlace": "Registro.html",
         "activo": false,
         "claseDeCss": "nav-item nav-link"
       }
+      
     ],
     "footer": [
       
