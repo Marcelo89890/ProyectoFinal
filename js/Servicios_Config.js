@@ -86,5 +86,41 @@ export  const ObtenerDatosUsuarios= async () => {
 
 };
 
+export  const InsertarUsuario= async () => {
+
+    let Usuario={
+        "userId": 1,
+        "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    }
+
+    let config = {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(Usuario)
+    };
+    const url = "https://jsonplaceholder.typicode.com/posts"
+
+    try {
+
+        const response = await fetch(url,config);
+        if (response.status == "201") {
+            const data = await response.json();
+            alert("Insertado correctamente"+ JSON.stringify(data))
+            
+            return data
+    
+        }else{
+            console.log("Error al consultar el API"+response.status)
+        }
+       
+    } catch (error) {
+
+        console.log("Error en la red"+ error);
+
+    }
+
+};
+
 
 //
