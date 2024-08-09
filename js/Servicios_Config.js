@@ -48,3 +48,29 @@ export  const ObtenerDatosApiRick = async () => {
     }
 
 };
+
+
+export  const ObtenerDatosUsuarios= async () => {
+
+    const url = "https://jsonplaceholder.typicode.com/posts"
+
+    try {
+
+        const response = await fetch(url);
+        if (response.status == "200") {
+            const data = await response.json();
+
+            console.warn(data);
+            return data
+    
+        }else{
+            console.log("Error al consultar el API"+response.status)
+        }
+       
+    } catch (error) {
+
+        console.log("Error en la red"+ error);
+
+    }
+
+};
